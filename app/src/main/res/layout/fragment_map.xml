@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Spinner
+        android:id="@+id/spinner_lugares_map"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:prompt="@string/seleccione_un_lugar"
+        android:spinnerMode="dialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/map_view"/>
+
+    <com.google.android.gms.maps.MapView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/map_view"
+        app:layout_constraintTop_toBottomOf="@id/spinner_lugares_map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </com.google.android.gms.maps.MapView>
+</android.support.constraint.ConstraintLayout>

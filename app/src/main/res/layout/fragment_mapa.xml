@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MAPAFragment"
+    android:background="#62c9c9"
+    >
+
+    <WebView
+        android:id="@+id/myWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp" />
+
+    <Spinner
+        android:id="@+id/spinnerLugares"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/seleccione_un_lugar"
+        android:spinnerMode="dialog"
+        />
+
+
+
+</FrameLayout>

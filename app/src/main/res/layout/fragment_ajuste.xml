@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AJUSTEFragment"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="Generales"
+            android:textColor="#1df5f9"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Pantalla"
+            android:textColor="#0d0c0c"
+            android:textSize="15dp"/>
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mantener la pantalla siempre encendida"
+            android:textColor="#aebcbe"
+            android:textSize="15dp"
+
+            android:thumbTint="#12eadc"
+            android:trackTint="#429fde"
+            android:checked="true"
+            android:textOn="On"
+            android:textOff="Off"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:layout_marginTop="20dp"
+            android:height="1sp"
+            android:background="#bcaeae"
+            android:startColor="#ffd2d2" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#1df5f9"
+            android:textSize="20dp"
+            android:text="Vistos" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="#0d0c0c"
+            android:textSize="15dp"
+            android:text="Eliminar datos" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="#aebcbe"
+            android:textSize="15dp"
+            android:thumbTint="#12eadc"
+            android:trackTint="#429fde"
+            android:checked="true"
+            android:textOn="On"
+            android:textOff="Off"
+            android:text="Borra todos los lugares vistos y los deja como 'NO vistos'" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:height="1dp"
+            android:background="#bcaeae"
+            android:startColor="#ffd2d2" />
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#1df5f9"
+            android:textSize="20dp"
+            android:text="Mapa" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="#0d0c0c"
+            android:textSize="15dp"
+            android:text="Guardar Mapa" />
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="#aebcbe"
+            android:textSize="15dp"
+            android:thumbTint="#12eadc"
+            android:trackTint="#429fde"
+            android:checked="true"
+            android:textOn="On"
+            android:textOff="Off"
+            android:text="Guarda la posicisión, el zoom y el tipo del mapa" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:height="1dp"
+            android:background="#bcaeae"
+            android:startColor="#ffd2d2" />
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#1df5f9"
+            android:textSize="20dp"
+            android:text="Imágenes" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="#0d0c0c"
+            android:textSize="15dp"
+            android:text="Fotos de la galería" />
+
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="#aebcbe"
+            android:textSize="15dp"
+            android:thumbTint="#12eadc"
+            android:trackTint="#429fde"
+            android:checked="true"
+            android:textOn="On"
+            android:textOff="Off"
+            android:text="Descarga imágenes sólo por Wi-Fi" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:layout_marginTop="20dp"
+            android:height="1sp"
+            android:background="#bcaeae"
+            android:startColor="#ffd2d2" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

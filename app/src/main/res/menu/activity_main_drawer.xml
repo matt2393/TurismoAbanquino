@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:textColor="#2196F3">
+        <item
+            android:id="@+id/oficiturism"
+            android:icon="@drawable/ic_turismo"
+            android:title="Oficinas de Turismo"
+            android:textColor="#2196F3"
+            android:iconTint="#2e8cd7"/>
+        <item
+            android:id="@+id/emergencia"
+            android:icon="@drawable/ic_cart"
+            android:title="Emergencia" />
+        <item
+            android:id="@+id/hoteles"
+            android:icon="@drawable/ic_planos"
+            android:title="Hoteles y Moteles" />
+        <item
+            android:id="@+id/restaurantes"
+            android:icon="@drawable/ic_busturismo"
+            android:title="Restaurantes y Agencias" />
+        <item
+            android:id="@+id/entretenimiento"
+            android:icon="@drawable/ic_estadistica"
+            android:title="Entretenimiento y Arte" />
+    </group>
+
+    <item android:title="Social"
+        android:textColor="#448AFF">
+        <menu>
+            <item
+                android:id="@+id/compartir"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartir" />
+            <item
+                android:id="@+id/Valorar"
+                android:icon="@drawable/ic_valorar"
+                android:title="Valorar" />
+            <item
+                android:id="@+id/contacto"
+                android:icon="@drawable/ic_contacto"
+                android:title="Contacto" />
+        </menu>
+    </item>
+    <item android:title=""
+        android:textColor="#42A5F5">
+        <menu>
+            <item
+                android:id="@+id/ajuste"
+                android:icon="@drawable/ic_ajuste1"
+                android:title="Ajuste"
+                android:textColor="#42A5F5"/>
+
+        </menu>
+    </item>
+
+
+
+</menu>

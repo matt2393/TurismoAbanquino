@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "553447468105",
+    "firebase_url": "https://turismoabanquino.firebaseio.com",
+    "project_id": "turismoabanquino",
+    "storage_bucket": "turismoabanquino.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553447468105:android:76df35599e0e3035",
+        "android_client_info": {
+          "package_name": "com.example.usuariio.turismoabanquino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553447468105-4h3r07os5vmpdne22dgc8en9iut7l1un.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.usuariio.turismoabanquino",
+            "certificate_hash": "a04ea602514f67e67eab4fa15b38b6792865347e"
+          }
+        },
+        {
+          "client_id": "553447468105-cltq85vb02podc9ubkhsigdarnj9koqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATTcKGMCzvigodmDqR0swMiieOFxXVnpU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553447468105-cltq85vb02podc9ubkhsigdarnj9koqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
